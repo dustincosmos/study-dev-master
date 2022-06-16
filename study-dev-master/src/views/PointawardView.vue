@@ -41,6 +41,7 @@
   </div>
 </template>
 <script>
+// import { queryPoint } from "@/request/network";
 export default {
   methods: {
     handleSizeChange(val) {
@@ -67,5 +68,16 @@ export default {
       currentPage4: 4,
     };
   },
+
+  // mounted() {
+  //   queryPoint({ id: 123 })
+  //     .then((data) => {
+  //       console.log(data);
+  //       this.tableData = data;
+  //     })
+  //     .catch((err) => {
+  //       console.log(err);
+  //     });
+  // },
 };
 </script>
